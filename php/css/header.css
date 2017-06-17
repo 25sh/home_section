@@ -1,4 +1,4 @@
-.home_page{
+.home_page__{
 	position: relative;
 }
 body{
@@ -8,23 +8,23 @@ a,a:link, a:visited, a:hover{
 	text-decoration: none;
 	color: inherit;
 }
-.header{
+.header__{
 	background-color:transparent;
 	position: fixed;
 /*	display:block;*/
 	width: 100vw;
 }
-.title{
+.title__{
 	float: left;
 	font-family: 'futurapt_bold';
 	margin: 0px 0px 0px 0px;
 }
-.title h1{
+.title__ h1{
 	float: left;
 	font-size: 46px;
 	color: white;
 }
-.title h2{
+.title__ h2{
 	float: left;
 	font-size: 36px;
 	padding: 7px 0px 0px 15px;
@@ -32,7 +32,7 @@ a,a:link, a:visited, a:hover{
 
 }
 
-.right_floter{
+.right_floter__{
 	float: right;
 	display: block;
 	font-family: 'open_sansregular';
@@ -44,25 +44,25 @@ a,a:link, a:visited, a:hover{
 /*	margin-top: 10px; */
 	padding-top: 48px;
 }
-.nav_menus{
+.nav_menus__{
 	margin: 0px;
 	float: right;
 /*	background: #6C1618;*/
 }
-.nav_menus a{
+.nav_menus__ a{
 	padding: 8px 10px 8px 10px;
 	line-height: 30px;
 	height: 30px;
 
 
 }
-.nav_menus a:last-child{
+.nav_menus__ a:last-child{
 	padding-right: 80px;
 }
-.nav_menus a:nth-child(1){
+.nav_menus__ a:nth-child(1){
 	padding-left: 50px;
 }
-.nos{
+.nos__{
 	float: left;
 	font-size: 9px;
 	color: white;
@@ -76,7 +76,7 @@ a,a:link, a:visited, a:hover{
   	border-width: 1px;
   	border-color: white;
 }
-.news{
+.news__{
 	margin-top: 0px;
 	float: left;
   	height: 30px;
@@ -85,7 +85,7 @@ a,a:link, a:visited, a:hover{
   	border-radius: 15px;
   	background-color: rgba(255,255,255,.30);
 }
-.sidenav {
+.sidenav__ {
     height: 100%;
     width: 0;
     position: fixed;
@@ -98,7 +98,7 @@ a,a:link, a:visited, a:hover{
     padding-top: 60px;
 }
 
-.sidenav a {
+.sidenav__ a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -107,11 +107,11 @@ a,a:link, a:visited, a:hover{
     transition: 0.3s;
 }
 
-.sidenav a:hover, .offcanvas a:focus{
+.sidenav__ a:hover, .offcanvas a:focus{
     color: #f1f1f1;
 }
 
-.sidenav .closebtn {
+.sidenav__ .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
@@ -119,22 +119,22 @@ a,a:link, a:visited, a:hover{
     margin-left: 50px;
 		cursor: pointer;
 }
-.sandwichbutton{
+.sandwichbutton__{
 	display: none;
 }
 @media only screen and (max-width: 1140px){
-	.title h2{
+	.title__ h2{
 		display: none;
 	}
-	.title h1{
+	.title__ h1{
 		margin-left: 20px;
 	}
 }
 @media only screen and (max-width: 788px){
-.right_floter{
+.right_floter__{
 	display: none;
 }
-.sandwichbutton{
+.sandwichbutton__{
 	display: block;
 	position: absolute;
 	right: 10%;
@@ -142,15 +142,15 @@ a,a:link, a:visited, a:hover{
   font-size: 40px;
 	float: right;
 }
-.title h2{
+.title__ h2{
 	display: none;
 }
-.news{
+.news__{
 	float: none;
 	margin-left: 32px;
 	margin-top: 50px;
 }
-.news:hover{
+.news__:hover{
 	cursor: pointer;
 	color: #f1f1f1;
 }
